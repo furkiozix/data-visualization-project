@@ -26,11 +26,7 @@ Sankey diagram is created using Plotly.
 Resulting Diagram
 The generated Sankey diagram visualizes the relationship between universities' overall rankings and their rankings based on academic indicators. The left side of the graph shows the overall rankings and the right side shows the academic scores.
 
-Some key observations from the graph:
-
-There is a high correlation between overall ranking and academic scores.
-However, some universities have academic scores above or below their overall rankings.
-Larger universities are mostly top ranked in both overall ranking and academic indicators.
+This project aims to visualize the relationships between different variables affecting university rankings using a Sankey diagram. The data used in this project is obtained from the "datacut.xlsx" or "data.xlsx" file, which contains information about universities' world rankings, academic reputation, faculty-student ratio, citations per faculty, international faculty, and international students. The Sankey diagram shows the flow of universities from the source (unnamed: 3) to the target (SCORE.8) through different intermediate ranks (RANK, RANK.1). The diagram also highlights the unique features of each university, such as academic reputation rank, faculty-student rank, citations per faculty rank, international faculty rank, and international students rank, using hovertemplates. The project is created using Python libraries such as pandas, plotly.graph_objects, and plotly.colors.You can view the project by visiting the link provided.
 
 Usage
 To generate the graph:
